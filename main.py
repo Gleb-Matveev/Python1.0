@@ -1,4 +1,4 @@
-ef calc(nm1, nm2, op):
+def calc(nm1, nm2, op):
     if op == "+":
         res = nm1 + nm2
         return res
