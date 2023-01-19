@@ -1,4 +1,3 @@
-
 def calc(nm1, nm2, op):
     if op == "+":
         res = nm1 + nm2
@@ -16,11 +15,11 @@ def calc(nm1, nm2, op):
         else:
             res = nm1 / nm2
             return res
-        
-
- def print_hi(name):
-     print(f'Hi, {name}')
 
 
- if __name__ == '__main__':
-     print_hi('PyCharm')
+def print_hi(name):
+    print(f'Hi, {name}')
+
+
+if __name__ == '__main__':
+    print_hi('PyCharm')
