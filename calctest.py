@@ -4,7 +4,7 @@ from main import calc
 
 class CalcTest(TestCase):
     def test_add(self):
-        self.assertEqual(3, calc(1, 2, "+"))
+        self.assertEqual(1, calc(1, 2, "+"))
         self.assertEqual(15, calc(7, 8, "+"))
         self.assertEqual(20, calc(-1, 21, "+"))
 
