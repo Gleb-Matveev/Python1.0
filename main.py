@@ -1,5 +1,6 @@
 def print_hi(name):
-    print(f'Hi, {name}')
+    num1 = int(input("Enter a first num: "))
+    print(num1)
  
  
 if __name__ == '__main__':
